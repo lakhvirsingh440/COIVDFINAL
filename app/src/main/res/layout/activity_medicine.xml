@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Medicine">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine for COVID-19 Patient"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <TableLayout android:id="@+id/TableLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="-388dp"
+        android:background="#FFFFFF">
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3px"
+            android:layout_marginTop="3px"
+            android:background="#CECECE"
+            android:text="Important Notice:- For any type of medicine, you shoud have prescription from Doctor"
+            android:textColor="#DF0000" />
+    </TableLayout>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/pil1"
+        android:layout_marginLeft="-400dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buckley"
+        android:layout_marginTop="340dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="-140dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/pil2"
+        android:layout_marginLeft="130dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alka"
+        android:layout_marginTop="340dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="-140dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prescription code"
+        android:layout_marginTop="360dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="-280dp"
+        android:textColor="#000000"
+
+        />
+    <EditText
+        android:id="@+id/pil1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="-120dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:padding="8dp"
+        android:backgroundTint="#D9D9D9"
+        android:background="#D9D9D9"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prescription code"
+        android:layout_marginTop="360dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="130dp"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:id="@+id/pil2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="-120dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:padding="8dp"
+        android:backgroundTint="#D9D9D9"
+        android:background="#D9D9D9"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+    <Button
+        android:id="@+id/cart1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="-330dp"
+        android:clickable="true"
+        android:background="#77CAED"
+        android:text="Add to cart"
+        android:textColor="#F00000"
+        android:textSize="11dp"
+        android:onClick="onClick"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/cart2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="130dp"
+        android:clickable="true"
+        android:background="#77CAED"
+        android:text="Add to cart"
+        android:textColor="#F00000"
+        android:textSize="11dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doctor">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctors for COVID-19 Patient"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/harmanchemma"
+        android:layout_marginLeft="-350dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Harman Chemma"
+        android:layout_marginTop="90dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn_chath"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginTop="170dp"
+        android:background="#A6F291"
+        android:clickable="true"
+        android:fontFamily="sans-serif"
+        android:text="Chat"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:onClick="onClick"
+        android:textStyle="bold"
+
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/lassi"
+        android:layout_marginLeft="-290dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Lassi Bro"
+        android:layout_marginTop="270dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn_chatb"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="330dp"
+        android:background="#A6F291"
+        android:clickable="true"
+        android:fontFamily="sans-serif"
+        android:text="Chat"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:onClick="onClick"
+
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="430dp"
+        android:src="@drawable/activakali"
+        android:layout_marginLeft="-280dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Kali Activa"
+        android:layout_marginTop="440dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn_chatk"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-170dp"
+        android:layout_marginTop="500dp"
+        android:background="#A6F291"
+        android:clickable="true"
+        android:fontFamily="sans-serif"
+        android:text="Chat"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:onClick="onClick"
+
+        />
+
+
+</LinearLayout>

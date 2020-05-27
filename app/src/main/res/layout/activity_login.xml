@@ -1,0 +1,107 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_marginLeft="130dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username or email"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#F00000"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="27dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:padding="8dp"
+        android:backgroundTint="#F00000"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#F00000"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="27dp"
+        android:backgroundTint="#F00000"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/buttonborder"
+        android:clickable="true"
+        android:text="LOGIN"
+        android:textColor="#F00000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:onClick="onClick"
+        />
+
+    <TextView
+        android:id="@+id/tv_forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:fontFamily="sans-serif"
+        android:onClick="onClick"
+        android:text="Forgot password"
+        android:textColor="#F00000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:layout_gravity="right"
+        android:clickable="true"
+        android:text="Create an Acoount"
+        android:textSize="20dp"
+        android:textColor="#F00000"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:onClick="onClick"/>
+</LinearLayout>

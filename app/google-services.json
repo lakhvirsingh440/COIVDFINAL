@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "536926554121",
+    "firebase_url": "https://inder-d9c56.firebaseio.com",
+    "project_id": "inder-d9c56",
+    "storage_bucket": "inder-d9c56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536926554121:android:fb3003fffa792c3ca910d8",
+        "android_client_info": {
+          "package_name": "com.example.acovid19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536926554121-mb4vtifpec5gb9mocb6jap8u087so9v0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRpnjdjo2CqqB8QP1dfjh0JY2atDad-DE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536926554121-mb4vtifpec5gb9mocb6jap8u087so9v0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
